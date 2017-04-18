@@ -1,0 +1,26 @@
+body {
+  font-family: Century Gothic;
+}
+
+h1 {
+  animation-name: example;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  color: #FF00E9;
+  font-weight: 100;
+  text-align: center;
+}
+
+@keyframes example {
+    0% {color: #BD0FE1;}
+    10% {color: #9012FE;}
+    20% {color: #127AFE;}
+    30% {color: #00C1FF;}
+    40% {color: #50E3C2;}
+    50% {color: #90F81C;}
+    60% {color: #F8E81C;}
+    70% {color: #F6A623;}
+    80% {color: #F66323;}
+    90% {color: #FF0084;}
+    100% {color: #BD0FE1;}
+}
