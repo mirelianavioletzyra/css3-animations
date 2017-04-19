@@ -1,0 +1,10 @@
+@mixin button-metrics() {
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background: white;
+  text-transform: capitalize;
+
+  &:focus {
+    outline: none;
+  }
+}
